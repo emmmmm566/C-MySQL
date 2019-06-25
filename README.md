@@ -7,7 +7,7 @@ Not long ago,I tried to use VS2013 to compile libs which are
 compiled on VS2008(the demo libs on https://dev.mysql.com/downloads/connector/cpp/)
 it just worked for int,but while program read the type of std::string,it throwed memory leak error.
 Then,I read https://dev.mysql.com/doc/connector-cpp/8.0/en/,and use 2 days to config the enviroment.
-Just use Cmake,make other plateforms to compile the libs,if you want to use it on other plateforms.
+Just use Cmake/Make to compile the libs on other plateforms,if you want to use it on other plateforms.
 If you try to change any config while using this libs on other plateforms,you will know what is horrible.
 I use 'subst p' in cmd to share the libs.
 the command in cmd is 'subst p: YOUR_DRIVER_PATH',such as 'subst p: d:\driver',you should care what your role in cmd,
