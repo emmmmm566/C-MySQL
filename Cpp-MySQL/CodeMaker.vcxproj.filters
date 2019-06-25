@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{27ab146f-3088-41b9-a23e-939b76cd3c10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tables">
+      <UniqueIdentifier>{46ccf079-ebb5-47f2-98c4-a8e83d3af551}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mysqlbase.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="Blank.cpp">
+      <Filter>Tables</Filter>
+    </ClCompile>
+    <ClCompile Include="TString.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="mysqlbase.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Singleton.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Blank.h">
+      <Filter>Tables</Filter>
+    </ClInclude>
+    <ClInclude Include="TString.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="Literature.h">
+      <Filter>Tables</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
