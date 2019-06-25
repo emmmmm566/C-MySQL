@@ -12,4 +12,5 @@ If you try to change any config while using this libs on other plateforms,you wi
 I use 'subst p' in cmd to share the libs.
 the command in cmd is 'subst p: YOUR_DRIVER_PATH',such as 'subst p: d:\driver',you should care what your role in cmd,
 the driver is giant,because it contains boost-1.68.
+boost-1.68 is also complied by VS2013.
 That's all.
