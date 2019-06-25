@@ -1,5 +1,5 @@
 # Cpp-MySQL
- MySQL connection c++1.1
+# MySQL connection c++1.1
 The plateform must be Visual Studio 2013,Debug,Win32
 it just works on Visual Studio 2013,Debug,Win32.
 Dear friends,if you want to use cpp in order to connect with MySQL,there is a demo for it.
